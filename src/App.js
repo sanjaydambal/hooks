@@ -1,11 +1,14 @@
 
 import './App.css';
-import Usestate from './Usestate';
+import Useeffect2 from './Useeffect2';
+
+// import Usestate from './Usestate';
 
 function App() {
   return (
     <div className="App">
-      <Usestate/>
+      {/* <Usestate/> */}
+      <Useeffect2/>
     </div>
   );
 }
