@@ -1,14 +1,29 @@
-
+import React, { createContext } from 'react';
 import './App.css';
-import Useeffect2 from './Useeffect2';
+//  import Component1 from './Comp1'; 
+// import RefDemo from './RefDemo';
+// import RefDemo2 from './RefDemo2';
+// import UseStateDemo from './UseStateDemo';
+// import Useeffect2 from './Useeffect2';
+// import RefDemo3 from './RefDemo3';
+// import ReducerDemo from './ReducerDemo';
+import ParentCallback from './ParentCallback';
 
-// import Usestate from './Usestate';
+export const UserContext = createContext();
 
 function App() {
   return (
     <div className="App">
-      {/* <Usestate/> */}
-      <Useeffect2/>
+      {/* <UserContext.Provider value={'Sanjay'}>  
+        <Component1 />
+      </UserContext.Provider> */}
+      {/* <UseStateDemo/> */}
+      {/* <Useeffect2/> */}
+      {/* <RefDemo/> */}
+      {/* <RefDemo3/> */}
+      {/* <RefDemo2/> */}
+      {/* <ReducerDemo/> */}
+      <ParentCallback/>
     </div>
   );
 }
