@@ -1,5 +1,6 @@
 import React, { createContext } from 'react';
 import './App.css';
+// import Memo from './Memo';
 //  import Component1 from './Comp1'; 
 // import RefDemo from './RefDemo';
 // import RefDemo2 from './RefDemo2';
@@ -7,7 +8,7 @@ import './App.css';
 // import Useeffect2 from './Useeffect2';
 // import RefDemo3 from './RefDemo3';
 // import ReducerDemo from './ReducerDemo';
-import ParentCallback from './ParentCallback';
+ import ParentCallback from './ParentCallback';
 
 export const UserContext = createContext();
 
@@ -24,6 +25,7 @@ function App() {
       {/* <RefDemo2/> */}
       {/* <ReducerDemo/> */}
       <ParentCallback/>
+      {/* <Memo/> */}
     </div>
   );
 }
